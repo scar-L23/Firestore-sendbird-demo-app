@@ -1,0 +1,22 @@
+.login_container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.row {
+  gap: 16px;
+}
+.login__wrapper {
+  padding: 16px;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.login__wrapper, .row {
+  display: flex;  flex-direction: column;
+}
+
+
+.login__wrapper button {
+  margin-top: 16px;
+}

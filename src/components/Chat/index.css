@@ -1,0 +1,24 @@
+.sendbird-app__wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sendbird-app__channellist-wrap {
+  max-width: 320px;
+}
+.sendbird-app__conversation-wrap {
+  flex: 1;
+  position: relative;
+}
+.sendbird-app__settingspanel-wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+p, h5 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
